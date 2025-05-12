@@ -1,6 +1,6 @@
 import React from "react";
 import { data } from "../constants/data";
-import Card from "./Card";
+import TraficCard from "./TraficCard";
 import styles from "./MainPage.module.css";
 
 function MainPage () {
@@ -8,7 +8,7 @@ function MainPage () {
         <div className={styles.mainPage}>
             {
                 data.map((info, index) => {
-                    return <Card info={info}
+                    return <TraficCard info={info}
                                 key={index}
                                 color={info.color}
                                 gradient={info.gradient}

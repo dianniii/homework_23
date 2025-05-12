@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./Card.module.css";
+import styles from "./TraficCard.module.css";
 
-const Card = ({ info, color, gradient, isThird }) => {
+const TraficCard = ({ info, color, gradient, isThird }) => {
     const { name, price, speed, limit} = info
     return (
         <div className={`${styles.card} ${isThird && styles.cardThird}`}> 
@@ -14,4 +14,4 @@ const Card = ({ info, color, gradient, isThird }) => {
     )
 };
 
-export default Card;
+export default TraficCard;
