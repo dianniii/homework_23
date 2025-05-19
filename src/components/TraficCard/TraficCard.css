@@ -1,0 +1,81 @@
+.card{
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.blue .name{
+    font-weight: bold;
+    height: 50px;
+    padding-top: 20px;
+    color: white;
+    background-color: #229cab;
+}
+
+.blue .price{
+    color: white;
+    height: 70px;
+    padding-top: 50px;
+    background-color: #2cc1d5;
+
+}
+.green .name{
+    font-weight: bold;
+    height: 50px;
+    padding-top: 20px;
+    color: white;
+    background-color: #1f8972;
+}
+
+.green .price{
+    color: white;
+    height: 70px;
+    padding-top: 50px;
+    background-color: #24ae8d;
+
+}
+
+.red .name{
+    font-weight: bold;
+    height: 50px;
+    padding-top: 20px;
+    color: white;
+    background-color: #c4554e;
+}
+
+.red .price{
+    color: white;
+    height: 70px;
+    padding-top: 50px;
+    background-color: #f46a5f;
+
+}
+.grey .name{
+    font-weight: bold;
+    height: 50px;
+    padding-top: 20px;
+    color: white;
+    background-color: #282f37;
+}
+
+.grey .price{
+    color: white;
+    height: 70px;
+    padding-top: 50px;
+    background-color: #333a44;
+
+}
+.speed{
+    height: 50px;
+    padding-top: 20px;
+}
+
+.limit{
+    height: 50px;
+    background-color: #eeeeee;
+}
+
+.is-third:hover {
+    transform: scale(1.25);
+}
